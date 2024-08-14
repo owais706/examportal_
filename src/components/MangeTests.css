@@ -1,0 +1,30 @@
+.manage-tests {
+  padding: 20px;
+}
+
+.add-test-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-test-button:hover {
+  background-color: #45a049;
+}
+
+.manage-tests ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.manage-tests ul li {
+  margin: 10px 0;
+}
+
+.manage-tests button {
+  margin-right: 10px;
+}

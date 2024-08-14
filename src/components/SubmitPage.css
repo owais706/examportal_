@@ -1,0 +1,49 @@
+.submit-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.test-summary {
+  margin-bottom: 20px;
+}
+
+.question-review {
+  margin-top: 20px;
+}
+
+.question-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.not-attempted {
+  color: red;
+}
+
+.correct-answer {
+  color: green;
+}
+
+.incorrect-answer {
+  color: red;
+}
+
+.explanation {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+}
+
+.passed {
+  color: green;
+  font-weight: bold;
+}
+
+.failed {
+  color: red;
+  font-weight: bold;
+}

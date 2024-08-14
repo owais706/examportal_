@@ -1,0 +1,134 @@
+.body {
+  /* background-image: url('../assets/blur-library.jpg'); */
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh; */
+}
+
+.create-test-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 4rem auto;
+  background: white;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.create-test-container .image-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.create-test-container .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.create-test-container .image-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: rgb(12, 0, 0);
+  font-size: 1.5rem;
+}
+
+.create-test-container .form-container {
+  flex: 1;
+  padding: 2rem;
+}
+
+.create-test-container .form-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.create-test-container .form-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.create-test-container .input,
+.create-test-container textarea,
+.create-test-container .datetime-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.create-test-container .datetime-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-test-container .datetime-input label {
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.create-test-container select {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.create-test-container select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.create-test-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.create-test-container textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.create-test-container .submit-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-test-container .submit-btn:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .create-test-container {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .create-test-container .image-container {
+    display: none;
+  }
+}
